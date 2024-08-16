@@ -17,7 +17,6 @@ const Features = () => {
         start: '-10% bottom'
       },
       onComplete: () => {
-        console.log("Completed : ");
         exploreVideoRef.current.play();
       }
     })

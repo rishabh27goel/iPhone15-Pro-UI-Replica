@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <main className='bg-black'>
+    <main className="w-full h-full overflow-hidden bg-black">
       <Navbar />
       <Hero />
       <Highlights />
