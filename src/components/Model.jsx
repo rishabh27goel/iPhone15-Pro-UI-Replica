@@ -7,7 +7,7 @@ import { Canvas } from '@react-three/fiber';
 import { View } from '@react-three/drei';
 import * as THREE from 'three';
 import { models, sizes } from '../constants';
-import { animateWithModelTimeline } from '../constants/animations';
+import { animateWithModelTimeline } from '../utils/animations';
 
 const Model = () => {
     const [modelSize, setModelSize] = useState('small');
